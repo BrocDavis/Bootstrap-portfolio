@@ -1,8 +1,43 @@
+/*list items show Vertical bar*/
 .navbar-nav>li{
     border-right: 1px solid #000;
-    float: right;
   }
-
+/*remove border to eliminate extra vertical bar*/
 .navbar-nav>li:last-child{
     border: none;
  }
+
+/* Title */
+.navbar-title{
+  background-color: rgb(28, 209, 194);
+  padding: 20px 40px;
+}
+
+html, body{
+  background-image: url("../images/Background.png");
+}
+
+.top-row{
+ margin-top: 20px;
+
+}
+
+hr {
+  border-top: 3px solid #dddddd;
+  width: 900px;
+  margin: 36px 0px 30px 10px;
+}
+
+h2 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-weight: bold;
+  color: #4aaaa5;
+  font-size: 24px;
+}
+
+#cat {
+  width: 300px;
+  height: 200px;
+  padding: 0px 20px 0px 10px;
+  float: left;
+}
