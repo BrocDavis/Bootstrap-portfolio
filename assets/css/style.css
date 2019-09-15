@@ -9,8 +9,10 @@
 
 /* Title */
 .navbar-title{
-  background-color: rgb(28, 209, 194);
+  background-color: #4aaaa5;
   padding: 20px 40px;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  color: #dddddd;
 }
 
 html, body{
@@ -19,7 +21,7 @@ html, body{
 
 .top-row{
  margin-top: 20px;
-
+opacity: 0;
 }
 
 hr {
